@@ -3,10 +3,10 @@ from decisionAgent import DecisionAgent
 from segmentationAgent import ExecutionAgent
 import json
 
-with open('./agenticAIforMicrosegmentation/Data/raw_alert.txt', 'r') as file:
+with open('./Data/raw_alert.txt', 'r') as file:
     raw_alert = file.read()
 
-with open('./agenticAIforMicrosegmentation/Data/topology.json', 'r') as file:
+with open('./Data/topology.json', 'r') as file:
     topology = json.load(file)
 
 

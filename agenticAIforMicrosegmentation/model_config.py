@@ -4,7 +4,7 @@ import os
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-env_path = Path("agenticAIforMicrosegmentation/.env")
+env_path = Path(".env")
 load_dotenv(dotenv_path=env_path)
 google_api_key = os.getenv("GOOGLE_API_KEY")
 
